@@ -1,0 +1,130 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("back2.jpg");
+	background-position: center;
+	background-size: cover;
+	font-family: sans-serif;
+}
+*
+{
+	margin: 0;
+	padding: 0;
+}
+.menubar {
+  overflow: hidden;
+  background-color: #FBFBFB;
+  position: fixed; 
+  top: 0; 
+  width: 100%;
+
+}
+
+.menubar a {
+  float: right;
+  display: block;
+  color: #555;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  font-family:arial;
+ 
+}
+
+.menubar a:hover {
+  background: #555;
+  color: black;
+}
+
+.contactbox
+{
+	border-radius: 5px;
+    border: 1px;
+	background:  #dcdcdc;
+    padding: 10px;
+    width: 400px;
+	height: 400px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.6);
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);	
+  
+} 
+
+h1
+{
+	margin: 0;
+	padding:0 0 20px;
+	text-align: center;
+	font-size: 30px;
+} 
+p{
+	margin: 0;
+	padding: 0;
+	font-size: 17px;
+	color: #555555;
+	font-weight: 550;
+}
+.contactbox input{
+	width: 98%;
+	margin-bottom: 20px;
+}
+.contactbox textarea{
+	width: 98%;
+	height: 25%;
+	margin-bottom: 20px;
+}
+.areatextbox{
+	background: transparent;
+	outline: none;
+	height: 37px;
+	color: black;
+	font-size: 15px;
+	width: 310px;
+}	
+.textbox{
+	border: none;
+	border-bottom: 1.0px solid #696969;
+	background: transparent;
+	outline: none;
+	height: 37px;
+	color: black;
+	font-size: 15px;
+	width: 310px;
+}	
+
+
+
+::placeholder{
+	color: gray;
+	font-style: italic;
+}
+/*.contactbox input[value="SEND"]{
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #696969;
+  border: none;
+  box-shadow: 0 2px #999;
+  border-radius: 20px;
+  width: 100px;
+  font-weight: bold;
+}
+
+.contactbox input[value="SEND"]:hover {background-color: #808080}
+
+.contactbox input[value="SEND"]::active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  width: 100px;
+}
+*/
+
+
